@@ -1,1 +1,8 @@
-#
+# Intellij
+*.idea
+*.pyc
+# MacOs
+*.DS_Store
+**/venv
+# Ignore mirror modules
+backup_mirrors/full_calendar/modules/**
