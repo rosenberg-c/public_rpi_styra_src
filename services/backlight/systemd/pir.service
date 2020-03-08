@@ -1,0 +1,14 @@
+[Unit]
+Description=pir service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u main.py
+WorkingDirectory=/home/pi/rpi_styra/services/backlight/py/pir
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

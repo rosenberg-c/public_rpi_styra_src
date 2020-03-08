@@ -1,0 +1,14 @@
+[Unit]
+Description=Request service
+After=network.target
+
+[Service]
+ExecStart=/home/pi/venv/bin/python3 -u main_requests.py
+WorkingDirectory=/home/pi/rpi_styra/services/requests/py
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

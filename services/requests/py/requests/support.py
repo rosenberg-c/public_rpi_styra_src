@@ -1,0 +1,5 @@
+UTILS_ENDPOINT = "/utils"
+BACKLIGHT_ENDPOINT = "/backlight"
+ENERGENIE_ENDPOINT = "/energenie"
+DEVICE_ENDPOINT = "/device-control"
+GIT_ENDPOINT = "/git"

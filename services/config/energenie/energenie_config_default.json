@@ -1,0 +1,9 @@
+{
+  "auto_on": false,
+  "auto_off": false,
+  "disable_from": "00:00:00",
+  "enable_from": "05:00:00",
+  "update_cycle": 600,
+  "ignore_gpio": false,
+  "name": "default"
+}

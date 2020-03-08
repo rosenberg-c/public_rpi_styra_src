@@ -1,0 +1,14 @@
+[Unit]
+Description=energenie service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u main_energenie.py
+WorkingDirectory=/home/pi/rpi_styra/services/energenie/py
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
