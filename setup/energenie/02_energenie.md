@@ -1,9 +1,2 @@
-
-# Setup git cred
-```
-git config --global credential.helper "cache --timeout=3600"
-```
-
---->
-# Setup basic magic-mirror
+# Setup basic energenie
 git clone https://github.com/rosenberg-c/rpi_styra.git

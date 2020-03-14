@@ -12,10 +12,11 @@ pip install RPi.GPIO
 
 # Setup services
 Run the contents of the files
--->
-request - /services/requests/systemd/01_ln.sh
-request - /services/requests/systemd/02_install.sh
+```
+request - rpi_styra/services/requests/systemd/01_ln.sh
+request - rpi_styra/services/requests/systemd/02_install.sh
 
-energenie - /services/energenie/systemd/01_ln.sh
-energenie - /services/energenie/systemd/02_install.sh
-<--
+energenie - rpi_styra/services/energenie/systemd/01_ln.sh
+energenie - rpi_styra/services/energenie/systemd/02_install.sh
+
+```

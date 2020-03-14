@@ -5,7 +5,7 @@ Time of writing 2020-02-05 kernel 4.19
 
 ### dd
 diskutil list
-diskutil umountDisk /dev/disk2
+diskutil umountDisk /dev/disk#
 sudo dd bs=1m if=/path of=/path conv=sync
 
 ### Prepare sd
@@ -28,7 +28,7 @@ un mount disk
 
 ## First boot
 ### ssh
-ssh pi@192.168.10.11
+ssh pi@192.168.#.#
 
 
 ### Change password
