@@ -3,7 +3,7 @@ Description=backlight service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 -u main_backlight.py
+ExecStart=/usr/bin/python3 -u main.py
 WorkingDirectory=/home/pi/rpi_styra/services/backlight/py
 StandardOutput=inherit
 StandardError=inherit
