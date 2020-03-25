@@ -3,7 +3,7 @@ This file is called from systemd service
 """
 
 from flask import Flask
-
+from flask_cors import CORS
 from requests.setup_endpoints import setup_enpoints
 
 
@@ -31,6 +31,7 @@ from requests.setup_endpoints import setup_enpoints
 
 def requests_app(config_dir):
     app = Flask(__name__)
+    CORS(app)
 
     setup_enpoints(app=app, config_dir=config_dir)
 
