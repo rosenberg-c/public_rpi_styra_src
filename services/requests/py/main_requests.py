@@ -39,7 +39,7 @@ def requests_app(config_dir):
 
 
 if __name__ == '__main__':
-    _config_dir = "../../../config"
+    _config_dir = "../../config/backlight"
 
     _app = requests_app(config_dir=_config_dir)
     _app.run(host="0.0.0.0", debug=True)
