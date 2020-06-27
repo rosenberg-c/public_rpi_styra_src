@@ -30,13 +30,15 @@ If you are using a rpi 3 b+ and above then you can use a 5G wifi connection.
 Otherwise you need to use a 2.4G connection.
 
 ---
-
+# Screen rotate
+https://www.raspberrypi.org/forums/viewtopic.php?t=135364
 Add 
 ```
 hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=87
 hdmi_cvt=800 480 60 6 0 0 0
+display_hdmi_rotate=2
 ```
 to end of file `/boot/config.txt`
 
@@ -84,7 +86,7 @@ sudo nano /etc/xdg/pcmanfm/LXDE-pi/pcmanfm.conf
 [volume]
 autorun=0
 
-## Disable screen-saver
+## Disable screen-saver 
 
 `sudo nano /etc/lightdm/lightdm.conf`
 

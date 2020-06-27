@@ -18,6 +18,5 @@ git clone https://github.com/rosenberg-c/rpi_styra.git
 
 <---
 
-pm2 delete MagicMirror
 pm2 start magic_clock.sh
 pm2 save

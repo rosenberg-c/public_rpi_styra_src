@@ -4,7 +4,7 @@ source venv/bin/activate
 pip install flask
 pip install RPi.GPIO
 
-
+pip install Flask-Cors
 
 
 

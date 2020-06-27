@@ -12,14 +12,21 @@ Some warning may occur, but is not a concern
 
 # Install Magic Mirror
 
-```
-url="https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh"
-bash -c "$(curl -sL $url)"
+https://docs.magicmirror.builders/getting-started/installation.html
 
-```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install -y nodejs
+
+git clone https://github.com/MichMich/MagicMirror
+cd MagicMirror/
+npm install
+cp config/config.js.sample config/config.js
+npm run start
+npm run server
+
+
 # install pm2
-Sometimes pm2 dont install correctly when running magic mirror install.
-Run this if you get pm2 missing error
+
 you can test by running command `pm2 list`
 
 info  - `https://stackoverflow.com/questions/52979927/npm-warn-checkpermissions-missing-write-access-to-usr-local-lib-node-modules`
